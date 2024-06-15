@@ -6,7 +6,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 export const ToDo = ({task}) => {
     return (
         <div className="Todo">
-            <p>{task.task}</p>
+            <p className="{}">{task.task}</p>
             <div>
                 <FontAwesomeIcon icon={faPenToSquare} />
                 <FontAwesomeIcon icon={faTrash} />
